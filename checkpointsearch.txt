@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+     tab:array-of-inetegr[],
+     i,k,n:integer
+
+BEGIN
+    read(n)
+    FOR i FROM 0 TO n-1 STEP 1 DO
+        read(k)
+        FOR i FROM 0 TO i STEP 1  DO
+        IF (k<tab[i]) THEN
+        swap(t[i],k)            
+        END_IF
+        END_FOR
+
+    END_FOR
